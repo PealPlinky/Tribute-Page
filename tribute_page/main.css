@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    background-color: gray;
+    color: #f1f1f1;
+    padding: 30px;
+}
+
+#tile{
+font-size: 3rem;
+}
+
+#sub-title{
+    margin: 10px auto;
+}
+
+#img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px auto;
+}
+
+#image{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.tribute-info-head{
+    text-align: center;
+}
+
+.tribute-info-list{
+    list-style: none;
+}
+
+.tribute-info-list{
+    margin-top: 20px;
+}
+
+.tribute-info-list{
+    margin: 20px auto;
+    font-size: 1rem;
+}
+
+.tribute-info-list a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.tribute-info-list a:hover{
+    color: salmon
+}
+
+.tribute-info-list a:visited{
+    color: seagreen;
+}
+
